@@ -33,4 +33,13 @@ public class Car {
     public void setRelease(int release) {
         this.release = release;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "model='" + model + '\'' +
+                ", carNumber='" + carNumber + '\'' +
+                ", release=" + release +
+                '}';
+    }
 }
